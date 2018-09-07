@@ -15,7 +15,11 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
 public class BigramCount {
-
+  /**
+    Preprocessing of Text File Suggestions:
+      * It's good to remove any symbols from text file.
+      * (Optional) All alphabetical characters should be converted to lowercase.
+  */
   public static class BigramMapper2 extends Mapper<Object, Text, Text, IntWritable>{
 
     //private final static IntWritable one = new IntWritable(1);
