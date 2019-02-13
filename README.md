@@ -1,2 +1,2 @@
 # Scalable-Data-Mining
-Code I wrote for various Data Mining problems.
+Code I wrote for various Big Data problems.
